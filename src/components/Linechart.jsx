@@ -3,7 +3,40 @@ import ReactDOM from 'react-dom';
 import { Area } from '@ant-design/plots';
 
 const DemoArea = () => {
-  const [data, setData] = useState([]);
+  const [dataq, setData] = useState([]);
+
+  const data = [
+    {
+      "Date": "2010-01",
+      "scales": 0
+    },
+    {
+      "Date": "2010-02",
+      "scales": 1650
+    },
+    // ... (rest of the flattened data)
+    {
+      "Date": "2017-01",
+      "scales": 145
+    },
+    {
+      "Date": "2017-02",
+      "scales": 27
+    },
+    {
+      "Date": "2017-02",
+      "scales": 20
+    },
+    {
+      "Date": "2017-02",
+      "scales": 107
+    },
+    {
+      "Date": "2017-02",
+      "scales": 307
+    }
+  ];
+  
 
   useEffect(() => {
     asyncFetch();

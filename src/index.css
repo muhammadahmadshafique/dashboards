@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.losediv{
+    border-radius: 8px;
+border: 1px solid rgba(92, 117, 125, 0.20);
+background: #F3F6FD;
+}
+
+.lk{
+    border-radius: 1000px;
+border: 0.5px solid var(--Light-Gray, #CCC);
+}
+
+.hn{
+    border-radius: 4px;
+border: 1px solid var(--Gray, #8F9699);
+}
+
+.abc{border-radius: 10px;
+    border: 1px solid var(--Light-Gray-2, #EEEFF0);
+    background: var(--BG, #FCFDFD);}
